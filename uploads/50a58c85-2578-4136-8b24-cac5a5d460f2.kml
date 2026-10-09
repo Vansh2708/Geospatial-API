@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Test Polygon Document</name>
+    <description>Sample KML polygon to test FastAPI geospatial parsing</description>
+    <Placemark>
+      <name>Sample Field</name>
+      <description>Test Area</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.594563,12.971598,0
+              77.595563,12.971598,0
+              77.595563,12.972598,0
+              77.594563,12.972598,0
+              77.594563,12.971598,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
